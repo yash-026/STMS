@@ -1,0 +1,30 @@
+{
+  "name": "smart-traffic-management-system",
+  "version": "1.0.0",
+  "description": "A web-based dashboard for smart traffic management system",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "traffic",
+    "management",
+    "iot",
+    "mqtt",
+    "dashboard"
+  ],
+  "author": "Yash Chavan",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mqtt": "^4.3.4",
+    "pg": "^8.7.1",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
